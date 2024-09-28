@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#md{
+    border: solid 1px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(50,55,080,0.9)),url(../public/assets/images/life.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#mi{
+    height: 350px;
+    width: 400px;
+    border: solid 1px;
+    position: relative;
+    top: 52%;
+    left: 38%;
+    background-image: url(../public/assets/images/moon.jpg);
+    background-repeat: no-repeat;
+    background-size: right;
+    background-position: center;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    opacity: 1;
+}
+#mi:hover{
+    opacity: 0.5;
+    transform: rotate3d(180d);
+    transition-duration: 2s;
+    color: red;
+}
+#mi h1{
+    position: absolute;
+    top: 130px;
+    left: 110px;
+}
+#by{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+    
+}
+#md img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+#md img:hover{
+    opacity: 0.9;
+    transition-duration: 2s;
+    
+}
+#m{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+/* #m img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+} */
+#ma{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+}
+/* #ma img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;   
+} */
+#fa{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    right: 280px;
+    top: 120px;
+}
+/* #fa img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; 
+} */
+#ce{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right:100px;
+}
+/* #ce img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; 
+    opacity: 0.3;
+} */
+.text h3{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    width: 100%;
+    color: transparent;
+}
+.text :hover{
+    color: aqua;
+    transition-duration: 2s;
+}
+
+/* #by h3:hover{
+    color: aqua;
+} */
+ .text img:hover{
+    color: aqua;
+    z-index: 100;
+ }
